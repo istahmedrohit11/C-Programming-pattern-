@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter any number: "); //1234
+    scanf("%d",&n);
+    int n1,n2,n3,n4,N1,N2;
+    n1=n/1000; //1
+    N1=n%1000; //234
+    n2=N1/100;  //2
+    N2=N1%100; //34
+    n3=N2/10; //3
+    n4=n%10; //4
+
+
+    printf("%d %d %d %d ",n1,n2,n3,n4);
+}
